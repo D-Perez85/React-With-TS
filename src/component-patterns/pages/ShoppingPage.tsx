@@ -1,3 +1,4 @@
+import { ProductButtons } from "../components/ProductButtons";
 import ProductCard from "../components/ProductCard";
 import { ProductImg } from "../components/ProductImage";
 
@@ -14,6 +15,7 @@ const ShoppingPage = () => {
       <hr />
       <ProductCard product={product}>
         <ProductImg />
+        <ProductButtons/>
       </ProductCard>
     </div>
   );
