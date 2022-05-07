@@ -7,12 +7,12 @@ export const ProductImg = ({ img = "" }) => {
   const { product } = useContext(ProductContext);
 
   let imgToShow: string;
-  if (img) {
-    imgToShow = img;
-  } else if (product.img) {
-    imgToShow = product.img;
-  } else {
-    imgToShow = noImage;
-  }
+      if (img) {
+        imgToShow = img;
+      } else if (product.img) {
+        imgToShow = product.img;
+      } else {
+        imgToShow = noImage;
+      }
   return <img className={styles.productImg} src={imgToShow} alt="Product" />;
 };
