@@ -1,4 +1,5 @@
-# COMPOUND COMPONENT PATTERN (Patron de composicion de componentes)
+# COMPOUND COMPONENT PATTERN 
+# Patron de composicion de componentes
 
 >#### Algunos puntos importantes del proyecto: 
               - Cuenta con la implementacion de react-roouter-dom para varias vistas, 
