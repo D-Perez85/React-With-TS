@@ -1,7 +1,6 @@
 import { createContext } from "react";
 import { useProduct } from "../hooks/useProduct";
 import { ProductContextProps, ProductCardProps } from "../interfaces/interfaces";
-
 import styles from "../styles/styles.module.css";
 
 export const ProductContext =  createContext({} as ProductContextProps); 
