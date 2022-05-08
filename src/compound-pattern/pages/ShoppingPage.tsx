@@ -1,5 +1,6 @@
 import ProductCard from "../components/ProductCard"
 import { ProductImg } from "../components/ProductImage"
+import { ProductButtons } from '../components/ProductButtons';
 
 const product ={
         id: '1', 
@@ -14,6 +15,7 @@ const ShoppingPage = () => {
         <div style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap'}}>
               <ProductCard product={product}>
                       <ProductImg/>
+                      <ProductButtons/>
             </ProductCard>
         </div>
     </div>
